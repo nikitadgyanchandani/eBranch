@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Failed suite [Ebranch Next]]]">
+  <test name="PNB MetLife(failed)(failed)(failed)">
+    <classes>
+      <class name="com.Ebranch.TestCases.eBranch_loginTest">
+        <methods>
+          <include name="Login_PNBChannel"/>
+          <include name="closeDriver"/>
+          <include name="Setup"/>
+          <include name="launchApplication"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.Ebranch.TestCases.eBranch_loginTest -->
+    </classes>
+  </test> <!-- PNB MetLife(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Ebranch Next]]] -->

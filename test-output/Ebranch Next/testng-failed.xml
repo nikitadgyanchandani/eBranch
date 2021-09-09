@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Ebranch Next]">
+  <test name="PNB MetLife(failed)">
+    <classes>
+      <class name="com.Ebranch.TestCases.eBranch_homePageTest">
+        <methods>
+          <include name="verifyCreateQuoteButton"/>
+          <include name="verifyHamburgerMenu"/>
+          <include name="verifyPNBMetLifeLogo"/>
+          <include name="verifyDashboardTitle"/>
+          <include name="verifyGreetingMessage"/>
+        </methods>
+      </class> <!-- com.Ebranch.TestCases.eBranch_homePageTest -->
+      <class name="com.Ebranch.TestCases.eBranch_loginTest">
+        <methods>
+          <include name="Login_PNBChannel"/>
+          <include name="Setup"/>
+          <include name="launchApplication"/>
+          <include name="verifySubHeading"/>
+          <include name="tearDown"/>
+          <include name="verifyUsernamePlaceholder"/>
+          <include name="verifyLogo"/>
+          <include name="verifyPswdPlaceholder"/>
+        </methods>
+      </class> <!-- com.Ebranch.TestCases.eBranch_loginTest -->
+    </classes>
+  </test> <!-- PNB MetLife(failed) -->
+</suite> <!-- Failed suite [Ebranch Next] -->

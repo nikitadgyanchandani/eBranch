@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Ebranch Next">
+ 
+
+	<!-- <listeners>
+		<listener class-name="Com.Guru99.Utilities.ExtentReporterNG" />
+	</listeners> -->
+
+
+	<test name="PNB MetLife">
+		<!--  <parameter name="browser" value="chrome" />-->
+		<classes>
+			<class name="com.Ebranch.TestCases.eBranch_loginTest"/>
+			<class name="com.Ebranch.TestCases.eBranch_homePageTest"/>
+		</classes>
+
+	</test>
+
+</suite>

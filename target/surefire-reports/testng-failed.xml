@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.Ebranch.TestCases.eBranch_loginTest]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.Ebranch.TestCases.eBranch_loginTest">
+        <methods>
+          <include name="Login_PNBChannel"/>
+          <include name="Setup"/>
+          <include name="launchApplication"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.Ebranch.TestCases.eBranch_loginTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.Ebranch.TestCases.eBranch_loginTest] -->

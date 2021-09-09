@@ -1,0 +1,6 @@
+com\Ebranch\PageObjects\CreateQuotePage.class
+com\Ebranch\TestCases\eBranch_loginTest.class
+com\Ebranch\PageObjects\eBranch_LoginPage.class
+com\Ebranch\PageObjects\EBranch_HomePage.class
+com\Ebranch\Utiliies\ReadConfig.class
+com\Ebranch\TestCases\BaseClass.class
