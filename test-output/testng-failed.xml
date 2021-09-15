@@ -5,10 +5,14 @@
     <classes>
       <class name="com.Ebranch.TestCases.eBranch_homePageTest">
         <methods>
+          <include name="Setup"/>
           <include name="verifyCreateQuoteButton"/>
           <include name="verifyHamburgerMenu"/>
           <include name="verifyPNBMetLifeLogo"/>
           <include name="verifyDashboardTitle"/>
+          <include name="TearDown"/>
+          <include name="launchApplication"/>
+          <include name="tearDown"/>
           <include name="verifyGreetingMessage"/>
         </methods>
       </class> <!-- com.Ebranch.TestCases.eBranch_homePageTest -->
@@ -19,6 +23,7 @@
           <include name="launchApplication"/>
           <include name="verifySubHeading"/>
           <include name="tearDown"/>
+          <include name="TearDown"/>
           <include name="verifyUsernamePlaceholder"/>
           <include name="verifyLogo"/>
           <include name="verifyPswdPlaceholder"/>

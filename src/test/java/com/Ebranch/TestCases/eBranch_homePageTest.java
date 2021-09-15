@@ -3,6 +3,8 @@ package com.Ebranch.TestCases;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
@@ -15,7 +17,7 @@ public class eBranch_homePageTest extends BaseClass {
 	static EBranch_HomePage homepage;
 	SoftAssert softassert=new SoftAssert();
 	
-	@BeforeMethod
+	@BeforeClass(alwaysRun=true)
 	public void launchApplication()
 	{
 		homepage=new EBranch_HomePage();
@@ -65,6 +67,12 @@ public class eBranch_homePageTest extends BaseClass {
 		System.out.println("verifyCreateQuoteButton: ,Expected Value: true, Actual value: " + createQuoteButtonIsPresent);
 		
 		driver.findElement(By.xpath("//div[contains(@class,'create_quote_btn')]//text()")).click();
+	}
+	
+	@AfterClass
+	public void tearDown()
+	{
+		driver.quit();
 	}
 
 }

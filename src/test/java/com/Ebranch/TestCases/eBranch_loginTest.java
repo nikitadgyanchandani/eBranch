@@ -10,7 +10,9 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
@@ -22,7 +24,7 @@ public class eBranch_loginTest extends BaseClass{
 	static EBranch_LoginPage loginpage;
 	SoftAssert softassert=new SoftAssert();
 	
-	@BeforeMethod
+	@BeforeClass(alwaysRun=true)
 	public void launchApplication()
 	{
 		loginpage=new EBranch_LoginPage();
@@ -91,9 +93,11 @@ public class eBranch_loginTest extends BaseClass{
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//title[text()='EBranchNxt']")));
 		
 		//driver.wait(60);
+		
+		new eBranch_homePageTest();
 	}
 	
-	@AfterMethod
+	@AfterClass
 	public void tearDown()
 	{
 		driver.quit();
