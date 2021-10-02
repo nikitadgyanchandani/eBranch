@@ -12,8 +12,10 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
@@ -24,20 +26,20 @@ public class eBranch_loginTest extends BaseClass{
 	static EBranch_LoginPage loginpage;
 	SoftAssert softassert=new SoftAssert();
 	
-	@BeforeClass(alwaysRun=true)
+	@BeforeSuite()
 	public void launchApplication()
 	{
 		loginpage=new EBranch_LoginPage();
 		System.out.println("Hello");
 		Setup();
 		
-		WebDriverWait wait = new WebDriverWait(driver, 250000);
+		WebDriverWait wait = new WebDriverWait(driver, 300000);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[contains(text(),' Sign in to continue ')]")));
 		wait.until(ExpectedConditions.urlToBe("https://uat-ebranchnxt.pnbmetlife.com/ebranch-nxt/login"));
 		
 	}
 	
-	@Test
+	@Test(priority=1)
 	public void verifyLogo()
 	{
 		System.out.println("within verifyLogo");
@@ -47,7 +49,7 @@ public class eBranch_loginTest extends BaseClass{
 		System.out.println("verifyLogo: ,Expected Value: true, Actual value: " + logoIsDisplayed);	
 	}
 	
-	@Test
+	@Test(priority=2)
 	public void verifySubHeading()
 	{
 		System.out.println("within verifySubHeading");
@@ -57,7 +59,7 @@ public class eBranch_loginTest extends BaseClass{
 		System.out.println("verifySubheading: ,Expected Value: true, Actual value: " + subheadingIsDisplayed);
 	}
 	
-	@Test
+	@Test(priority=3)
 	public void verifyUsernamePlaceholder()
 	{
 		System.out.println("within verifyUsernamePlaceholder");
@@ -67,7 +69,7 @@ public class eBranch_loginTest extends BaseClass{
 		System.out.println("verifyusernameplaceholder: ,Expected Value: User ID, Actual value: " + unamePlaceholder);
 	}
 	
-	@Test
+	@Test(priority=4)
 	public void verifyPswdPlaceholder()
 	{
 		System.out.println("within verifyPswdPlaceholder");
@@ -77,7 +79,7 @@ public class eBranch_loginTest extends BaseClass{
 		System.out.println("verifyPswdPlaceholder: ,Expected Value: Password, Actual value: " + pswdPlaceholder);
 	}
 	
-	@Test
+	@Test(priority=5)
 	public void Login_PNBChannel() throws InterruptedException
 	{
 		System.out.println("within Login_PNBChannel");
@@ -94,10 +96,10 @@ public class eBranch_loginTest extends BaseClass{
 		
 		//driver.wait(60);
 		
-		new eBranch_homePageTest();
+		//new eBranch_homePageTest();
 	}
 	
-	@AfterClass
+	@AfterSuite
 	public void tearDown()
 	{
 		driver.quit();

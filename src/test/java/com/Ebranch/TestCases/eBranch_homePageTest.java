@@ -17,7 +17,7 @@ public class eBranch_homePageTest extends BaseClass {
 	static EBranch_HomePage homepage;
 	SoftAssert softassert=new SoftAssert();
 	
-	@BeforeClass(alwaysRun=true)
+	@BeforeClass()
 	public void launchApplication()
 	{
 		homepage=new EBranch_HomePage();

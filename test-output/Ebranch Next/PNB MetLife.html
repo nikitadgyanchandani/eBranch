@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/10/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Sep 15 12:33:05 IST 2021</td>
+<td>Started on:</td><td>Wed Sep 22 18:11:45 IST 2021</td>
 </tr>
-<tr><td>Total time:</td><td>1081 seconds (1081323 ms)</td>
+<tr><td>Total time:</td><td>1 seconds (1181 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,59 +76,19 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.Ebranch.TestCases.eBranch_loginTest.Login_PNBChannel()'><b>Login_PNBChannel</b><br>Test class: com.Ebranch.TestCases.eBranch_loginTest</td>
-<td><div><pre>org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=83.0.4103.61)
-Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
-System info: host: &apos;RACLAP80-COMP&apos;, ip: &apos;192.168.63.110&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\NIKITA~1.GYA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64492}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 078ddc991036f85d7d41493a09d099dd
-*** Element info: {Using=xpath, value=//title[text()=&apos;EBranchNxt&apos;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:349)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:310)
-	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-	at com.Ebranch.TestCases.eBranch_loginTest.Login_PNBChannel(eBranch_loginTest.java:93)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace817686795", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace817686795'><pre>org.openqa.selenium.WebDriverException: chrome not reachable
-  (Session info: chrome=83.0.4103.61)
-Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
-System info: host: &apos;RACLAP80-COMP&apos;, ip: &apos;192.168.63.110&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\NIKITA~1.GYA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64492}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 078ddc991036f85d7d41493a09d099dd
-*** Element info: {Using=xpath, value=//title[text()=&apos;EBranchNxt&apos;]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:349)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElements(By.java:348)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:310)
-	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
-	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
-	at com.Ebranch.TestCases.eBranch_loginTest.Login_PNBChannel(eBranch_loginTest.java:93)
+<td><div><pre>java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
+	at com.Ebranch.PageObjects.EBranch_LoginPage.SetUsername(EBranch_LoginPage.java:61)
+	at com.Ebranch.TestCases.eBranch_loginTest.Login_PNBChannel(eBranch_loginTest.java:90)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace549293029", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace549293029'><pre>java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
+	at com.Ebranch.PageObjects.EBranch_LoginPage.SetUsername(EBranch_LoginPage.java:61)
+	at com.Ebranch.TestCases.eBranch_loginTest.Login_PNBChannel(eBranch_loginTest.java:90)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -155,21 +115,21 @@ Session ID: 078ddc991036f85d7d41493a09d099dd
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
 </pre></div></td>
-<td>200</td>
-<td>com.Ebranch.TestCases.eBranch_loginTest@4667ae56</td></tr>
+<td>0</td>
+<td>com.Ebranch.TestCases.eBranch_loginTest@1a968a59</td></tr>
 <tr>
 <td title='com.Ebranch.TestCases.eBranch_homePageTest.verifyCreateQuoteButton()'><b>verifyCreateQuoteButton</b><br>Test class: com.Ebranch.TestCases.eBranch_homePageTest</td>
 <td><div><pre>java.lang.NullPointerException
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
+	at com.sun.proxy.$Proxy11.isDisplayed(Unknown Source)
 	at com.Ebranch.PageObjects.EBranch_HomePage.verifyCreateQuoteButtonVisiblity(EBranch_HomePage.java:99)
 	at com.Ebranch.TestCases.eBranch_homePageTest.verifyCreateQuoteButton(eBranch_homePageTest.java:65)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace369347944", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace369347944'><pre>java.lang.NullPointerException
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace332873513", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace332873513'><pre>java.lang.NullPointerException
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
+	at com.sun.proxy.$Proxy11.isDisplayed(Unknown Source)
 	at com.Ebranch.PageObjects.EBranch_HomePage.verifyCreateQuoteButtonVisiblity(EBranch_HomePage.java:99)
 	at com.Ebranch.TestCases.eBranch_homePageTest.verifyCreateQuoteButton(eBranch_homePageTest.java:65)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -199,20 +159,20 @@ Session ID: 078ddc991036f85d7d41493a09d099dd
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
 </pre></div></td>
 <td>0</td>
-<td>com.Ebranch.TestCases.eBranch_homePageTest@77cd7a0</td></tr>
+<td>com.Ebranch.TestCases.eBranch_homePageTest@4667ae56</td></tr>
 <tr>
 <td title='com.Ebranch.TestCases.eBranch_homePageTest.verifyDashboardTitle()'><b>verifyDashboardTitle</b><br>Test class: com.Ebranch.TestCases.eBranch_homePageTest</td>
 <td><div><pre>java.lang.NullPointerException
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy9.getText(Unknown Source)
+	at com.sun.proxy.$Proxy11.getText(Unknown Source)
 	at com.Ebranch.PageObjects.EBranch_HomePage.getTitle(EBranch_HomePage.java:76)
 	at com.Ebranch.TestCases.eBranch_homePageTest.verifyDashboardTitle(eBranch_homePageTest.java:49)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1260634890", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1260634890'><pre>java.lang.NullPointerException
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace131872530", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace131872530'><pre>java.lang.NullPointerException
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy9.getText(Unknown Source)
+	at com.sun.proxy.$Proxy11.getText(Unknown Source)
 	at com.Ebranch.PageObjects.EBranch_HomePage.getTitle(EBranch_HomePage.java:76)
 	at com.Ebranch.TestCases.eBranch_homePageTest.verifyDashboardTitle(eBranch_homePageTest.java:49)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -242,14 +202,14 @@ Session ID: 078ddc991036f85d7d41493a09d099dd
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
 </pre></div></td>
 <td>0</td>
-<td>com.Ebranch.TestCases.eBranch_homePageTest@77cd7a0</td></tr>
+<td>com.Ebranch.TestCases.eBranch_homePageTest@4667ae56</td></tr>
 <tr>
 <td title='com.Ebranch.TestCases.eBranch_homePageTest.verifyGreetingMessage()'><b>verifyGreetingMessage</b><br>Test class: com.Ebranch.TestCases.eBranch_homePageTest</td>
 <td><div><pre>java.lang.NullPointerException
 	at com.Ebranch.PageObjects.EBranch_HomePage.verifygreetingMessage(EBranch_HomePage.java:87)
 	at com.Ebranch.TestCases.eBranch_homePageTest.verifyGreetingMessage(eBranch_homePageTest.java:57)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace820537534", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace820537534'><pre>java.lang.NullPointerException
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace98826337", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace98826337'><pre>java.lang.NullPointerException
 	at com.Ebranch.PageObjects.EBranch_HomePage.verifygreetingMessage(EBranch_HomePage.java:87)
 	at com.Ebranch.TestCases.eBranch_homePageTest.verifyGreetingMessage(eBranch_homePageTest.java:57)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -279,20 +239,20 @@ Session ID: 078ddc991036f85d7d41493a09d099dd
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
 </pre></div></td>
 <td>0</td>
-<td>com.Ebranch.TestCases.eBranch_homePageTest@77cd7a0</td></tr>
+<td>com.Ebranch.TestCases.eBranch_homePageTest@4667ae56</td></tr>
 <tr>
 <td title='com.Ebranch.TestCases.eBranch_homePageTest.verifyHamburgerMenu()'><b>verifyHamburgerMenu</b><br>Test class: com.Ebranch.TestCases.eBranch_homePageTest</td>
 <td><div><pre>java.lang.NullPointerException
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
 	at com.Ebranch.PageObjects.EBranch_HomePage.verifyHamburgerMenuExistence(EBranch_HomePage.java:60)
 	at com.Ebranch.TestCases.eBranch_homePageTest.verifyHamburgerMenu(eBranch_homePageTest.java:40)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace858232531", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace858232531'><pre>java.lang.NullPointerException
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1236444285", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1236444285'><pre>java.lang.NullPointerException
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
 	at com.Ebranch.PageObjects.EBranch_HomePage.verifyHamburgerMenuExistence(EBranch_HomePage.java:60)
 	at com.Ebranch.TestCases.eBranch_homePageTest.verifyHamburgerMenu(eBranch_homePageTest.java:40)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -322,62 +282,22 @@ Session ID: 078ddc991036f85d7d41493a09d099dd
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
 </pre></div></td>
 <td>0</td>
-<td>com.Ebranch.TestCases.eBranch_homePageTest@77cd7a0</td></tr>
+<td>com.Ebranch.TestCases.eBranch_homePageTest@4667ae56</td></tr>
 <tr>
 <td title='com.Ebranch.TestCases.eBranch_loginTest.verifyLogo()'><b>verifyLogo</b><br>Test class: com.Ebranch.TestCases.eBranch_loginTest</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h1[contains(text(),&apos;eBranch NXT&apos;)]&quot;}
-  (Session info: chrome=83.0.4103.61)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
-System info: host: &apos;RACLAP80-COMP&apos;, ip: &apos;192.168.63.110&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\NIKITA~1.GYA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: e236ec6c6f6ee642774688beb26fcd4b
-*** Element info: {Using=xpath, value=//h1[contains(text(),&apos;eBranch NXT&apos;)]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+<td><div><pre>java.lang.NullPointerException
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
+	at com.sun.proxy.$Proxy11.isDisplayed(Unknown Source)
 	at com.Ebranch.PageObjects.EBranch_LoginPage.verifyLogo(EBranch_LoginPage.java:38)
-	at com.Ebranch.TestCases.eBranch_loginTest.verifyLogo(eBranch_loginTest.java:44)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1142347343", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1142347343'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h1[contains(text(),&apos;eBranch NXT&apos;)]&quot;}
-  (Session info: chrome=83.0.4103.61)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
-System info: host: &apos;RACLAP80-COMP&apos;, ip: &apos;192.168.63.110&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\NIKITA~1.GYA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: e236ec6c6f6ee642774688beb26fcd4b
-*** Element info: {Using=xpath, value=//h1[contains(text(),&apos;eBranch NXT&apos;)]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at com.Ebranch.TestCases.eBranch_loginTest.verifyLogo(eBranch_loginTest.java:46)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1889057031", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1889057031'><pre>java.lang.NullPointerException
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
+	at com.sun.proxy.$Proxy11.isDisplayed(Unknown Source)
 	at com.Ebranch.PageObjects.EBranch_LoginPage.verifyLogo(EBranch_LoginPage.java:38)
-	at com.Ebranch.TestCases.eBranch_loginTest.verifyLogo(eBranch_loginTest.java:44)
+	at com.Ebranch.TestCases.eBranch_loginTest.verifyLogo(eBranch_loginTest.java:46)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -404,21 +324,21 @@ Session ID: e236ec6c6f6ee642774688beb26fcd4b
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
 </pre></div></td>
-<td>60</td>
-<td>com.Ebranch.TestCases.eBranch_loginTest@4667ae56</td></tr>
+<td>0</td>
+<td>com.Ebranch.TestCases.eBranch_loginTest@1a968a59</td></tr>
 <tr>
 <td title='com.Ebranch.TestCases.eBranch_homePageTest.verifyPNBMetLifeLogo()'><b>verifyPNBMetLifeLogo</b><br>Test class: com.Ebranch.TestCases.eBranch_homePageTest</td>
 <td><div><pre>java.lang.NullPointerException
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
+	at com.sun.proxy.$Proxy11.isDisplayed(Unknown Source)
 	at com.Ebranch.PageObjects.EBranch_HomePage.verifyLogo(EBranch_HomePage.java:46)
 	at com.Ebranch.TestCases.eBranch_homePageTest.verifyPNBMetLifeLogo(eBranch_homePageTest.java:32)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1021258849", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1021258849'><pre>java.lang.NullPointerException
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1096485705", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1096485705'><pre>java.lang.NullPointerException
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
+	at com.sun.proxy.$Proxy11.isDisplayed(Unknown Source)
 	at com.Ebranch.PageObjects.EBranch_HomePage.verifyLogo(EBranch_HomePage.java:46)
 	at com.Ebranch.TestCases.eBranch_homePageTest.verifyPNBMetLifeLogo(eBranch_homePageTest.java:32)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -448,61 +368,22 @@ Session ID: e236ec6c6f6ee642774688beb26fcd4b
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
 </pre></div></td>
 <td>0</td>
-<td>com.Ebranch.TestCases.eBranch_homePageTest@77cd7a0</td></tr>
+<td>com.Ebranch.TestCases.eBranch_homePageTest@4667ae56</td></tr>
 <tr>
 <td title='com.Ebranch.TestCases.eBranch_loginTest.verifyPswdPlaceholder()'><b>verifyPswdPlaceholder</b><br>Test class: com.Ebranch.TestCases.eBranch_loginTest</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[contains(@class,&apos;mat-input-element&apos;) and contains(@ng-reflect-placeholder,&apos;Password&apos;)]&quot;}
-  (Session info: chrome=83.0.4103.61)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
-System info: host: &apos;RACLAP80-COMP&apos;, ip: &apos;192.168.63.110&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\NIKITA~1.GYA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: e236ec6c6f6ee642774688beb26fcd4b
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+<td><div><pre>java.lang.NullPointerException
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy9.getCssValue(Unknown Source)
+	at com.sun.proxy.$Proxy11.getCssValue(Unknown Source)
 	at com.Ebranch.PageObjects.EBranch_LoginPage.verifyPasswordPlaceholder(EBranch_LoginPage.java:54)
-	at com.Ebranch.TestCases.eBranch_loginTest.verifyPswdPlaceholder(eBranch_loginTest.java:74)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1676605578", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1676605578'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[contains(@class,&apos;mat-input-element&apos;) and contains(@ng-reflect-placeholder,&apos;Password&apos;)]&quot;}
-  (Session info: chrome=83.0.4103.61)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
-System info: host: &apos;RACLAP80-COMP&apos;, ip: &apos;192.168.63.110&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\NIKITA~1.GYA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: e236ec6c6f6ee642774688beb26fcd4b
-*** Element info: {Using=xpath, value=//input[contains(@class,&apos;mat-input-element&apos;) and contains(@ng-reflect-placeholder,&apos;Password&apos;)]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at com.Ebranch.TestCases.eBranch_loginTest.verifyPswdPlaceholder(eBranch_loginTest.java:76)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace997033037", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace997033037'><pre>java.lang.NullPointerException
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy9.getCssValue(Unknown Source)
+	at com.sun.proxy.$Proxy11.getCssValue(Unknown Source)
 	at com.Ebranch.PageObjects.EBranch_LoginPage.verifyPasswordPlaceholder(EBranch_LoginPage.java:54)
-	at com.Ebranch.TestCases.eBranch_loginTest.verifyPswdPlaceholder(eBranch_loginTest.java:74)
+	at com.Ebranch.TestCases.eBranch_loginTest.verifyPswdPlaceholder(eBranch_loginTest.java:76)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -529,63 +410,23 @@ Session ID: e236ec6c6f6ee642774688beb26fcd4b
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
 </pre></div></td>
-<td>60</td>
-<td>com.Ebranch.TestCases.eBranch_loginTest@4667ae56</td></tr>
+<td>0</td>
+<td>com.Ebranch.TestCases.eBranch_loginTest@1a968a59</td></tr>
 <tr>
 <td title='com.Ebranch.TestCases.eBranch_loginTest.verifySubHeading()'><b>verifySubHeading</b><br>Test class: com.Ebranch.TestCases.eBranch_loginTest</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(text(),&apos; Sign in to continue &apos;)]&quot;}
-  (Session info: chrome=83.0.4103.61)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
-System info: host: &apos;RACLAP80-COMP&apos;, ip: &apos;192.168.63.110&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\NIKITA~1.GYA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: e236ec6c6f6ee642774688beb26fcd4b
-*** Element info: {Using=xpath, value=//span[contains(text(),&apos; Sign in to continue &apos;)]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+<td><div><pre>java.lang.NullPointerException
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
+	at com.sun.proxy.$Proxy11.isDisplayed(Unknown Source)
 	at com.Ebranch.PageObjects.EBranch_LoginPage.verifySubheading(EBranch_LoginPage.java:43)
-	at com.Ebranch.TestCases.eBranch_loginTest.verifySubHeading(eBranch_loginTest.java:54)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace999230073", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace999230073'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(text(),&apos; Sign in to continue &apos;)]&quot;}
-  (Session info: chrome=83.0.4103.61)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
-System info: host: &apos;RACLAP80-COMP&apos;, ip: &apos;192.168.63.110&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\NIKITA~1.GYA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: e236ec6c6f6ee642774688beb26fcd4b
-*** Element info: {Using=xpath, value=//span[contains(text(),&apos; Sign in to continue &apos;)]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at com.Ebranch.TestCases.eBranch_loginTest.verifySubHeading(eBranch_loginTest.java:56)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace324169305", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace324169305'><pre>java.lang.NullPointerException
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
+	at com.sun.proxy.$Proxy11.isDisplayed(Unknown Source)
 	at com.Ebranch.PageObjects.EBranch_LoginPage.verifySubheading(EBranch_LoginPage.java:43)
-	at com.Ebranch.TestCases.eBranch_loginTest.verifySubHeading(eBranch_loginTest.java:54)
+	at com.Ebranch.TestCases.eBranch_loginTest.verifySubHeading(eBranch_loginTest.java:56)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -612,62 +453,23 @@ Session ID: e236ec6c6f6ee642774688beb26fcd4b
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
 </pre></div></td>
-<td>60</td>
-<td>com.Ebranch.TestCases.eBranch_loginTest@4667ae56</td></tr>
+<td>0</td>
+<td>com.Ebranch.TestCases.eBranch_loginTest@1a968a59</td></tr>
 <tr>
 <td title='com.Ebranch.TestCases.eBranch_loginTest.verifyUsernamePlaceholder()'><b>verifyUsernamePlaceholder</b><br>Test class: com.Ebranch.TestCases.eBranch_loginTest</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[contains(@class,&apos;mat-input-element&apos;) and contains(@ng-reflect-placeholder,&apos;User ID&apos;)]&quot;}
-  (Session info: chrome=83.0.4103.61)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
-System info: host: &apos;RACLAP80-COMP&apos;, ip: &apos;192.168.63.110&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\NIKITA~1.GYA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: e236ec6c6f6ee642774688beb26fcd4b
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+<td><div><pre>java.lang.NullPointerException
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy9.getCssValue(Unknown Source)
+	at com.sun.proxy.$Proxy11.getCssValue(Unknown Source)
 	at com.Ebranch.PageObjects.EBranch_LoginPage.verifyUsernamePlaceholder(EBranch_LoginPage.java:48)
-	at com.Ebranch.TestCases.eBranch_loginTest.verifyUsernamePlaceholder(eBranch_loginTest.java:64)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1829217853", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1829217853'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[contains(@class,&apos;mat-input-element&apos;) and contains(@ng-reflect-placeholder,&apos;User ID&apos;)]&quot;}
-  (Session info: chrome=83.0.4103.61)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
-System info: host: &apos;RACLAP80-COMP&apos;, ip: &apos;192.168.63.110&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_191&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\NIKITA~1.GYA\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:64425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: e236ec6c6f6ee642774688beb26fcd4b
-*** Element info: {Using=xpath, value=//input[contains(@class,&apos;mat-input-element&apos;) and contains(@ng-reflect-placeholder,&apos;User ID&apos;)]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at com.Ebranch.TestCases.eBranch_loginTest.verifyUsernamePlaceholder(eBranch_loginTest.java:66)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace391135083", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace391135083'><pre>java.lang.NullPointerException
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy9.getCssValue(Unknown Source)
+	at com.sun.proxy.$Proxy11.getCssValue(Unknown Source)
 	at com.Ebranch.PageObjects.EBranch_LoginPage.verifyUsernamePlaceholder(EBranch_LoginPage.java:48)
-	at com.Ebranch.TestCases.eBranch_loginTest.verifyUsernamePlaceholder(eBranch_loginTest.java:64)
+	at com.Ebranch.TestCases.eBranch_loginTest.verifyUsernamePlaceholder(eBranch_loginTest.java:66)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -694,8 +496,8 @@ Session ID: e236ec6c6f6ee642774688beb26fcd4b
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
 </pre></div></td>
-<td>60</td>
-<td>com.Ebranch.TestCases.eBranch_loginTest@4667ae56</td></tr>
+<td>0</td>
+<td>com.Ebranch.TestCases.eBranch_loginTest@1a968a59</td></tr>
 </table><p>
 </body>
 </html>

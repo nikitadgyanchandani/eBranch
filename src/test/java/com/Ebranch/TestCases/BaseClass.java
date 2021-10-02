@@ -21,6 +21,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Parameters;
 
 import com.Ebranch.Utiliies.ReadConfig;
@@ -41,7 +42,7 @@ ReadConfig readconfig=new ReadConfig();
 	//public static Logger logger;
 	
 	//@Parameters("browser")
-	@BeforeClass //Intializing the drivers
+	//Intializing the drivers
 	public void Setup()
 	{
 		
@@ -68,8 +69,8 @@ ReadConfig readconfig=new ReadConfig();
 		driver.get(baseURL);
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
-		driver.manage().timeouts().pageLoadTimeout(1500, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(250, TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(3, TimeUnit.MINUTES);
 			
 	}
 	
@@ -104,7 +105,6 @@ ReadConfig readconfig=new ReadConfig();
 				}
 		}*/
 	
-	@AfterClass
 	public void TearDown()
 	{
 		driver.quit();
